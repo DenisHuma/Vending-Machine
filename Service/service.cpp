@@ -1,6 +1,6 @@
-#include "UI.cpp"
-#include "vending.cpp"
-#include "repoFile.cpp"
+#include "../UI/UI.cpp"
+#include "../Objects/vending.cpp"
+#include "../Repositories/repoFile.cpp"
 
 bool changePossible(double change, Vending vending)
 {
